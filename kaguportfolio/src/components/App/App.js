@@ -1,9 +1,9 @@
 import './App.css';
-import CircleTest from '../CircleTest';
+import Resources from "../App/Resources/"
 function App() {
   return (
     <div className="App">
-  <CircleTest />
+      <Resources />
     </div>
   );
 }
