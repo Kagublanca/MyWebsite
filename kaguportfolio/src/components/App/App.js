@@ -1,5 +1,5 @@
 import './App.css';
-import Resources from "../App/Resources/"
+import Resources from "../Resources"
 import Shop from "../Shop/index"
 function App() {
   return (

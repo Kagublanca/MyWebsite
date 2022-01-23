@@ -1,6 +1,25 @@
 #gold {
-    border: .2em solid black;
+    border: .2em solid rgba(77, 75, 8, 0.541);
     border-radius: 50px;
     background-color: rgba(211, 233, 12, 0.507);
     text-align: center;
+    font-size: .8em;
+    width: 3em;
+}
+
+#xp{
+    border:  .2em solid rgba(0, 128, 0, 0.685);
+    border-radius: 50px;
+    background-color: rgba(44, 218, 21, 0.521);
+    text-align: center;
+    font-size: .8em;
+    width: 3em;
+}
+
+#message {
+    border : .2em solid green;
+border-radius: 50px;
+background-color: white;
+text-align: center;
+width: 16em;
 }
