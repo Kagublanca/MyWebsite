@@ -1,8 +1,17 @@
 import {useReducer} from "react";
+import "./index.css"
 
-
-function reducer(){
-
+function reducer(state, action){
+switch(action.type){
+    case "woodClick" :
+        return {wood : state.wood + 1, rock : state.rock, food : state.food}
+        case "rockClick" :
+        return {wood : state.wood, rock : state.rock + 1, food : state.food}
+        case "foodClick" :
+        return {wood : state.wood, rock : state.rock, food : state.food + 1}
+        default :
+    return state;
+}
 }
 
 const initialState = {
@@ -14,15 +23,25 @@ food : 0
 function Resources(){
 
 
+
     const [state, dispatch] = useReducer(reducer, initialState)
 
-
+    function handleWoodClick(){
+        dispatch({type : "woodClick"});
+        console.log(state)
+    }
+    function handleRockClick(){
+        dispatch({type : "rockClick"});
+    }
+    function handleFoodClick(){
+        dispatch({type : "foodClick"});
+    }
 
     return (
-        <div>
-        <h2>Chop Tree</h2>
-        <h2>Mine Rock</h2>
-        <h2>Gather Food</h2>
+        <div className="container_1">
+        <h2 className="resource" id="wood" onClick={handleWoodClick}>Chop Tree</h2>
+        <h2 className="resource" id="rock"onClick={handleRockClick}>Mine Rock</h2>
+        <h2 className="resource" id="food" onClick={handleFoodClick}>Gather Food</h2>
         </div>
     )
 }

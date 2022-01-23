@@ -1,0 +1,44 @@
+.container_1{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.resource{
+    user-select: none;
+    background-color: gray;
+    width: 6em;
+    text-align: center;
+    border-radius: 33%;
+    font-size: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: rgba(0, 0, 0, 0.452) solid;
+    margin-top: 35em;
+    align-self: center;
+}
+
+
+#wood {
+    background-color:rgba(128, 51, 0, 0.664);
+}
+
+#rock{
+    background-color: rgba(128, 128, 128, 0.548);
+}
+
+#food{
+    background-color: rgba(0, 128, 0, 0.39);
+}
+
+#wood:hover {
+    background-color:rgba(128, 51, 0, 0.377);
+}
+
+#rock:hover{
+    background-color: rgba(128, 128, 128, 0.329);
+}
+
+#food:hover{
+    background-color: rgba(0, 128, 0, 0.233);
+}
