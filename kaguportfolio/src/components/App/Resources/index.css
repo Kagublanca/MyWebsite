@@ -4,24 +4,33 @@ align-items: center;
 justify-content: space-evenly;
 }
 
+.container_2{
+    display: flex;
+    align-items: center;
+    background-color: rgba(22, 219, 219, 0.151);
+    justify-content: space-evenly;
+    user-select: none;
+}
+
 .resource{
     user-select: none;
-    background-color: gray;
     width: 6em;
     text-align: center;
     border-radius: 33%;
-    font-size: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    font-size: .8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     border: rgba(0, 0, 0, 0.452) solid;
-    margin-top: 35em;
+    margin-top: 65em;
     align-self: center;
 }
+
 
 
 #wood {
     background-color:rgba(128, 51, 0, 0.664);
 }
+
 
 #rock{
     background-color: rgba(128, 128, 128, 0.548);
@@ -42,3 +51,22 @@ justify-content: space-evenly;
 #food:hover{
     background-color: rgba(0, 128, 0, 0.233);
 }
+
+#wood:active{
+    background-color: white;
+}
+
+#rock:active{
+    background-color: white;
+}
+
+#food:active{
+    background-color: white;
+}
+
+.animations{
+    background-color: rgba(240, 240, 240, 0.096);
+    display: flex;
+    justify-content: center;
+}
+

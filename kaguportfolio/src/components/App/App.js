@@ -1,6 +1,6 @@
 import './App.css';
 import Resources from "../App/Resources/"
-import Shop from "../App/Shop"
+import Shop from "../Shop/index"
 function App() {
   return (
     <div className="App">

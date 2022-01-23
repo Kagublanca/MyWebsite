@@ -1,0 +1,6 @@
+#gold {
+    border: .2em solid black;
+    border-radius: 50px;
+    background-color: rgba(211, 233, 12, 0.507);
+    text-align: center;
+}

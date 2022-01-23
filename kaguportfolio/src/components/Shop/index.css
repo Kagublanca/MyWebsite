@@ -1,10 +1,16 @@
 .shop-background{
-    position: fixed;
+    position: flex;
     background-color: rgba(158, 158, 158, 0.589);
-    width: 30em;
-    height: 60em;
+    width: 25em;
+    height: 40em;
     margin-top : 15em;
     border: rgba(0, 0, 0, 0.568) solid;
     border-top-right-radius: 13%;
     border-bottom-right-radius: 13%;
+    text-align: center;
+}
+
+.items {
+display: flex;
+justify-content: center;
 }
