@@ -1,3 +1,4 @@
+import OpenShopButton from "../OpenShopButton";
 import ShopItem from "../ShopItem";
 import "./index.css"
 function Shop(){
@@ -14,8 +15,7 @@ return (
     </ul>
     </div>
     </div>
-
 )
 }
-
 export default Shop;
+
