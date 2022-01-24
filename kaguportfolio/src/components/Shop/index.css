@@ -1,5 +1,5 @@
 .shop-background{
-    position: flex;
+    display: flex;
     background-color: rgba(158, 158, 158, 0.589);
     width: 25em;
     height: 40em;
@@ -12,5 +12,5 @@
 
 .items {
 display: flex;
-justify-content: center;
+text-align: center;
 }

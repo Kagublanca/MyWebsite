@@ -3,13 +3,15 @@ import "./index.css"
 function ShopItem(){
     const title = "Upgrade!"
     return (
-        <li>{title}
-            <p id="message">This upgrade will do something good, it may increase something.
-                You can by this upgrade by clicking the button! OK, I hope This
-                is enough text
+        <li id="title">{title}
+            <p id="message">A brief overview of
+            asdjasdasduihasdiuhsadasuhasuidauisdhuhsda
+            asduihasdiuhasduihasduihasdiuhasdiuh what the upgrade will do goes here
+                <div>
+                    </div>
+            <p className="resourceshop" id="woodshop">Wood <span>20</span></p>
+            <p className="resourceshop" id="rockshop">Rock <span>50</span></p>
             </p>
-            <p id="gold">Gold: 5</p>
-            <p id="xp">XP: 5</p>
         </li>
     );
 }

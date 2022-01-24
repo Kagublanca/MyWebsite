@@ -3,13 +3,14 @@ import "./index.css"
 function Shop(){
 return (
     <div>
-    <div className="shop-background">
     <h1>The Shop</h1>
-    </div>
+    <div className="shop-background">
     <ul className="items">
     <ShopItem />
     </ul>
     </div>
+    </div>
+
 )
 }
 
