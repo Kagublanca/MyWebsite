@@ -11,6 +11,7 @@ function ShopItem(){
                     </div>
             <p className="resourceshop" id="woodshop">Wood <span>20</span></p>
             <p className="resourceshop" id="rockshop">Rock <span>50</span></p>
+            <p> <strong>Buy: <span>$30</span></strong></p>
             </p>
         </li>
     );

@@ -2,11 +2,15 @@ import ShopItem from "../ShopItem";
 import "./index.css"
 function Shop(){
 return (
-    <div>
+    <div className="theshop">
     <h1>The Shop</h1>
     <div className="shop-background">
     <ul className="items">
     <ShopItem />
+    <ShopItem />
+    <ShopItem />
+    <ShopItem />
+
     </ul>
     </div>
     </div>

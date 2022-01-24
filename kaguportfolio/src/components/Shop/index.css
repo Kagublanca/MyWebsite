@@ -1,5 +1,4 @@
 .shop-background{
-    display: flex;
     background-color: rgba(158, 158, 158, 0.589);
     width: 25em;
     height: 40em;
@@ -11,6 +10,8 @@
 }
 
 .items {
-display: flex;
-text-align: center;
+}
+
+.theshop {
+list-style-type: none;
 }
