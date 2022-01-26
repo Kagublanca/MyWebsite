@@ -37,9 +37,7 @@ function Resources(){
         dispatch({type : "foodClick"});
     }
 
-    function woodAnimation(){
 
-    }
 
     return (
         <div>

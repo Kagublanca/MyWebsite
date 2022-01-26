@@ -23,6 +23,7 @@ justify-content: space-evenly;
     border: rgba(0, 0, 0, 0.452) solid;
     margin-top: 65em;
     align-self: center;
+    position: static;
 }
 
 
